@@ -9,12 +9,12 @@ module.exports = {
     mode: "production",
     entry: __dirname + "/app/main.js",
     output: {
-        path: __dirname + "/build",
+        path: __dirname + "/docs",
         filename: "bundle-[hash].js"
     },
     devtool: 'none',
     devServer: {
-        contentBase: './build',
+        contentBase: './docs',
         historyApiFallback: true,
         inline: true,
         port: 8235,
