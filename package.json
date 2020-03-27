@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sample webpack project",
   "author": "zhang",
+  "homepage": "https://linxiaoki.github.io/webpack_sample_project-practice/",
   "license": "ISC",
   "scripts": {
     "start": "webpack",
