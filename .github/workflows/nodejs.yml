@@ -12,10 +12,6 @@ jobs:
 
     runs-on: ubuntu-latest  # 运行的系统
 
-    strategy:
-      matrix:
-        node-version: [10.x, 12.x]
-
     steps:
     - name: checkout
       uses: actions/checkout@v2  # 将仓库内 master 分支内容下载到工作目录
