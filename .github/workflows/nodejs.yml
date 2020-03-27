@@ -39,6 +39,4 @@ jobs:
       run: |
         # publish
          webpack --config ./webpack.production.config.js
-         git add -A
-         git commit -m 'update: push dist'
-         git push origin master
+         git add -A && git commit -m 'update: push dist' && git push origin master
