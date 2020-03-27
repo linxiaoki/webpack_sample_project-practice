@@ -42,7 +42,7 @@ jobs:
     - name: Deploy
       run: |
         # publish
-         webpack --config ./webpack.production.js
+         webpack --config ./webpack.production.config.js
          git add -A
          git commit -m 'update: push dist'
          git push
