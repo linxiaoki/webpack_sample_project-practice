@@ -39,4 +39,5 @@ jobs:
       run: |
         # publish
          webpack --config ./webpack.production.config.js
-         git add -A && git commit -m 'update: push dist' && git push origin master
+         # 判断是否需要提交
+         [[ -z $(git status -s) ]] || (git add -A && git commit -m 'update: push dist' && git push origin master)
