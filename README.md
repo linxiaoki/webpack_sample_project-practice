@@ -15,4 +15,5 @@ cnpm install
 4. 选择 Action , 添加 workflows，可以选择 node.js 模板。修改 nodejs.yml 文件内容。具体可参考[文件](https://github.com/linxiaoki/webpack_sample_project-practice/blob/master/.github/workflows/nodejs.yml)
 5. 查看页面：https://linxiaoki.github.io/webpack_sample_project-practice/
 6. 参考：[github actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)，[Github actions 自动发布 Hexo](https://juejin.im/post/5da03d5e6fb9a04e046bc3a2)
+test
 
