@@ -41,5 +41,4 @@ jobs:
          webpack --config ./webpack.production.config.js
          git add -A
          git commit -m 'update: push dist'
-         git remote add origin git@github.com:linxiaoki/webpack_sample_project-practice
          git push origin master
